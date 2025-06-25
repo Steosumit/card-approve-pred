@@ -1,38 +1,36 @@
-🏦 Credit Card Approval Prediction using Machine Learning
-This project demonstrates how to build a credit card approval prediction system using machine learning, similar to the systems used by real-world commercial banks. It walks through the entire process of data preprocessing, model building, evaluation, and optimization using Python and scikit-learn.
+# 🏦 Credit Card Approval Prediction using Machine Learning
 
-📂 Dataset
-The dataset is a subset of the UCI Credit Card Approval dataset, containing anonymized data about applicants and whether they were approved or not.
+This project demonstrates how to build a **credit card approval prediction system** using machine learning, similar to the systems used by real-world commercial banks. It walks through the entire process of data preprocessing, model building, evaluation, and optimization using **Python** and **scikit-learn**.
 
-🧠 What the project does
-Cleans and preprocesses raw data (handles missing values and categorical variables)
+## 📂 Dataset
 
-Splits data into training and test sets
+The dataset is a subset of the [UCI Credit Card Approval dataset](https://archive.ics.uci.edu/ml/datasets/Credit+Approval), containing anonymized data about applicants and whether they were approved or not.
 
-Trains a Logistic Regression model
+## 🧠 What the Project Does
 
-Evaluates the model using confusion matrix
+- Cleans and preprocesses raw data (handles missing values and categorical variables)
+- Splits data into training and test sets
+- Trains a **Logistic Regression** model
+- Evaluates the model using confusion matrix
+- Tunes hyperparameters with **GridSearchCV** for improved performance
 
-Tunes hyperparameters with GridSearchCV for improved performance
+## 🔧 Tech Stack
 
-🔧 Tech Stack
-Python
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
 
-Pandas, NumPy
+##  Future Features
+- Expand the prediction to include alternative data sources (non banking) to make accurate prediction for subjects having less banking history
 
-Scikit-learn
+## 📝 Notebook Walkthrough
 
-📝 Notebook Walkthrough
 The Jupyter notebook is structured into:
 
-Data Loading and Exploration
-
-Missing Value Imputation
-
-Encoding Categorical Variables
-
-Feature Scaling
-
-Model Training & Evaluation
-
-Hyperparameter Tuning
+1. **Data Loading and Exploration**
+2. **Missing Value Imputation**
+3. **Encoding Categorical Variables**
+4. **Feature Scaling**
+5. **Model Training & Evaluation**
+6. **Hyperparameter Tuning**
